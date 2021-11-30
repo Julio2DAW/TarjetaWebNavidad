@@ -1,0 +1,54 @@
+html{
+    width: 1440px;
+}
+body{
+    width: 1440px;
+    position: relative;
+}
+header{
+    width: 1400px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+}
+main{
+    width: 1400px;
+    background-color: burlywood;
+    padding: 20px;
+    float: left;
+    position: relative;
+}
+main .stile1{
+    margin-bottom: 20px;
+}
+.stile1{
+    padding: 20px;
+    width: 1360px;
+    background-color: pink;
+}
+#image{
+    width: 1400px;
+    background: orange;
+    position: absolute;
+    top: 20px;
+}
+aside{
+    width: 1360px;
+    padding: 20px;
+    background-color: yellowgreen;
+    display: flex;
+}
+aside section{
+    width: 670px;
+    background-color: palevioletred;
+}
+#espaciado{
+    margin-right: 20px;
+}
+footer{
+    width: 1400px;
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    clear: left;
+}
