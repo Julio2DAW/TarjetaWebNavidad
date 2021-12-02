@@ -1,0 +1,155 @@
+/*
+ estilos.css
+  @author Julio Antonio Ramos Gago <jramosgago.guadalupe@alumnado.fundacionloyola.net>
+  @license GPL v3 2021
+*/
+/*Tamaño del html*/
+html{
+    width: 1440px;
+}
+/*Estilos aplicados al body*/
+body{
+    background-color: white;
+    width: 1440px;
+}
+/*Estilos aplicados al header*/
+header{
+    background-color: #0064A0;
+    color: white;
+    width: 1440px;
+}
+header div{
+    padding: 20px;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+/*Estilos aplicados al main*/
+main{
+    width: 1440px;
+    padding: 20px;
+    font-family: 'Roboto';
+}
+/*Estilos de las secciones*/
+main>section{
+    width: 1360px;
+    background-color: #622794;
+    padding: 20px;
+    color: white;
+    text-align: justify;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+main>div{
+    width: 1440px;
+    margin-bottom: 20px;
+}
+main>div img{
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    width: 1400px;
+    height: 600px;
+}
+aside{
+    width: 1400px;
+    background-color: #622794;
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+aside>section{
+    padding: 20px;
+    width: 1360px;
+    display: flex;
+}
+aside>section>div{
+    width: 670px;
+}
+aside>section>div>iframe{
+    width: 670px;
+    height: 350px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+aside>section>div img{
+    width: 670px;
+    height: 350px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+aside>form{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+form div{
+    padding-bottom: 20px;
+}
+form input{
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+form button{
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+aside>div{
+    padding: 20px;
+}
+aside>div>iframe{
+    width: 1360px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 200px;
+}
+#espacio_bottom{
+    margin-bottom: 20px;
+}
+.espacio_right{
+    margin-right: 20px;
+}
+footer{
+    background-color: #0064A0;
+    color: white;
+    width: 1440px;
+}
+footer>div{
+    padding: 20px;
+    display: flex;
+}
+footer img{
+    width: 200px;
+}
